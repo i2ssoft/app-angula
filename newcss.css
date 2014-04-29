@@ -1,12 +1,38 @@
-#up{background-image: linear-gradient(#ffffff,#d1d1d1;) 
- width:780px;
- height:354px;
+.up{
+background:linear-gradient(#ffffff,#ffffff,#ffffff,#d1d1d1); 
+ height:80px;
+ width:780px; 
 }
-
-    
-
-
-
+.pos{
+position:fixed;
+left:24px; 
+top:17px;
+}
+.bHOME{
+    position:fixed;
+    top:17px;
+    left:400px;    
+}
+.bSERV{
+    position:fixed;
+    top:17px;
+    left:478px;    
+}
+.bCON{
+    position:fixed;
+    top:17px;
+    left:548px;    
+}
+.bSEAR{
+    position:fixed;
+    top:17px;
+    left:618px;    
+}
+.bSM{
+    position:fixed;
+    top:17px;
+    left:688px;    
+}
 /*
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
