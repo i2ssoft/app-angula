@@ -1,0 +1,19 @@
+{    
+    {"menu":[
+    {"name": "KSIĄŻKI", "link": "1", "sub": [
+        {"name": "PRZYGODOWE","link": "0-0", "sub": null},
+        {"name": "DETEKTYWISTYCZNE","link": "0-1", "sub": null},
+        {"name": "SCI-FI","link": "0-2", "sub": null}
+        ]},
+    {"name": "MUZYKA", "link": "2", "sub": [
+        {"name": "POP","link": "2-0", "sub": null},
+        {"name": "ROCK","link": "2-1", "sub": null},
+        {"name": "TECHNO","link": "2-2", "sub": null}
+    ]},        
+    {"name": "FILMY", "link": "3","sub": [
+        {"name": "ANIMOWANE","link": "3-1", "sub": null},
+        {"name": "KOMEDIA","link": "3-2", "sub": null},
+        {"name": "HORROR","link": "3-2", "sub": null}
+        ]}
+]}
+}
