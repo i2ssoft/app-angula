@@ -1,8 +1,8 @@
 .up{
 background:linear-gradient(#ffffff,#ffffff,#ffffff,#d1d1d1); 
  height:80px;
- width:780px;
- z-index:-1;
+ width:780px; 
+ z-index:0;
 }
 .menu{
 height:39px;
@@ -19,6 +19,41 @@ a.active {color:#FFFFFF;}
     text-shadow: 5px 5px 5px #999999;
     position:absolute;
     top:34px;
+    z-index:1;
+}
+.solu{
+    background:linear-gradient(#FFFFFF,#FFFFFF,#E6E6E6);
+    height:36px;
+    width:780px;
+    position:absolute;
+    top:271px; 
+}
+.kreskaM{
+    width:778px;
+    color:#CECECE;
+    background-color:#CECECE;
+    height:0,5px;
+    position:absolute;
+    left:8px;
+    top:300px;
+}
+.kreskaD{
+    width:778px;
+    color:#FFC600;
+    background-color:#FFC600;
+    height:11px;
+    position:absolute;
+    left:8px;
+    top:302px;   
+}
+.napis1{
+color:#8A8A8A;
+font-size:15px;
+}
+.napis1B{
+color:#8a8a8a;
+font-weight:bold;
+
 }
 .kabel{
 //background:linear-gradient(#6c6c6c,#999999);
@@ -26,15 +61,140 @@ height:37px;
 width:780px;
 }
 .posZ{
-position:fixed;
-top:17px;
+position:absolute;
+top:0px;
 left:24px; 
 }
-.bHOME{position:fixed; top:17px; left:400px;}
-.bSERV{position:fixed; top:17px; left:478px;}
-.bCON{position:fixed; top:17px; left:548px;}
-.bSEAR{position:fixed; top:17px; left:618px;}
-.bSM{position:fixed; top:17px; left:688px;}
+.bHOME{position:absolute; top:14px; left:400px;}
+.bSERV{position:absolute; top:14px; left:478px;}
+.bCON{position:absolute; top:14px; left:548px;}
+.bSEAR{position:absolute; top:14px; left:618px;}
+.bSM{position:absolute; top:14px; left:688px;}
+table.plan{
+    width:606px;
+    height:130px;
+    position:absolute;
+    top:323px;
+    left:83px;
+}
+
+.obramowanie{
+    border-top-width:0px; 
+    border-bottom-width:0px;
+    border-left-width:0px;
+    border-right-width:6px;
+}
+.ramka1{
+    border:1px solid black;
+    border-collapse:collapse;
+    border-top-width:1px; 
+    border-bottom-width:1px;
+    border-left-width:0px;
+    border-right-width:1px;
+    border-top-color:#CECECE;
+    border-bottom-color:#CECECE;
+    border-right-color:#CECECE;
+    width:270px;
+    height:46px;   
+    position:absolute;
+    top:466px;
+    background:linear-gradient(#FFFFFF,#EBEBEB);
+}
+.ramka2{
+    border:1px solid black;
+    border-collapse:collapse;
+    border-top-width:1px; 
+    border-bottom-width:1px;
+    border-left-width:0px;
+    border-right-width:1px;
+    border-top-color:#CECECE;
+    border-bottom-color:#CECECE;
+    border-right-color:#CECECE;
+    width:509px;
+    height:46px;   
+    position:absolute;
+    top:466px;
+    left:279px;
+    background:linear-gradient(#FFFFFF,#EBEBEB);
+}
+.file1{
+    position:relative; 
+    left:32px;
+}
+.comNEWS{
+    font-size:11px;
+    font-weight:bold;
+    font-family:sans-serif;
+    position:relative;
+    left:-1px;
+}
+.blueline{
+    height:11px;
+    width:780px;
+    position:absolute;
+    left:8px;
+    top:505px;
+    color:#86ABD8;
+    background-color:#86ABD8;
+    border:0px;
+}
+table.down{
+    width:780px;
+    height:159px;
+    position:absolute;
+    top:523px;
+    left:6px;
+    border:1px solid black;
+    border-collapse:collapse;
+    border-top-color:#FFFFFF;
+    border-bottom-color:#FFFFFF;
+    border-left-color:#FFFFFF;
+    border-right-color:#FFFFFF;
+}
+.folder{
+    float:left;   
+}
+.textMay{
+    color:#FF7500;
+    font-size:16px;    
+}
+.lorem1{
+   font-size:11px;
+   margin-left: 28px;
+   margin-right: 28px;
+   margin-top:26px;
+}
+.lorem2{
+   font-size:11px;
+   margin-left: 32px;
+   margin-right: 32px;
+   margin-top:26px;
+}
+.downMENU{
+    width:780px;
+    height:37px;
+    background:linear-gradient(#6C6C6C,#999999);
+    position:absolute;
+    top:687px;
+    font-size:12px;
+    text-align:center;    
+}
+a.marg{
+    position:relative;
+    top:11px;
+    margin-left:13px;
+    margin-right:13px;
+}
+.stopka{
+    background:linear-gradient(#D4D4D4,#FFFFFF,#FFFFFF);
+    width:780px;
+    height:80px;
+    position:absolute;
+    top:725px;
+}
+.copyright{
+   text-align:center;
+}
 /*
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
