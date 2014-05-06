@@ -10,6 +10,36 @@ width:780px;
 position:absolute;
 top:71px;
 }
+.title1{
+    font-size:20px;
+    color:#5E5CA7;
+    font-weight:bold;
+    position:absolute;
+    left:80px;
+    top:-3px;
+}
+.title2{
+    font-size:20px;
+    color:#FFC600;
+    font-weight:bold;
+    position:absolute;
+    top:-3px;
+    left:163px;
+}
+.slogan{
+    font-size:8.5px;
+    color:#818181;
+    position:absolute;
+    left:80px;
+    top:29px;
+    font-weight:bold;
+}
+.menu2T{
+    font-size:9px;
+    color:#000000;
+    position:absolute;
+    top:53px;
+}
 a.link {color:#FFFFFF;text-decoration:none;}
 a.visited {color:#FFFFFF;text-decoration:none;}
 a.hover {color:#FFFFFF;}  
@@ -28,6 +58,14 @@ a.active {color:#FFFFFF;}
     position:absolute;
     top:271px; 
 }
+.serious{
+    z-index:2;
+    font-size:18px;
+    color:#FF5A00;
+    position:absolute;
+    left:270px;
+    font-weight:bold;
+}
 .kreskaM{
     width:778px;
     color:#CECECE;
@@ -35,16 +73,17 @@ a.active {color:#FFFFFF;}
     height:0,5px;
     position:absolute;
     left:8px;
-    top:300px;
+    top:300px;    
 }
 .kreskaD{
-    width:778px;
+    width:780px;
     color:#FFC600;
     background-color:#FFC600;
     height:11px;
     position:absolute;
     left:8px;
-    top:302px;   
+    top:302px; 
+    border:0px;
 }
 .napis1{
 color:#8A8A8A;
@@ -71,13 +110,57 @@ left:24px;
 .bSEAR{position:absolute; top:14px; left:618px;}
 .bSM{position:absolute; top:14px; left:688px;}
 table.plan{
-    width:606px;
+    width:610px;
     height:130px;
     position:absolute;
-    top:323px;
+    top:322px;
     left:83px;
 }
-
+.plan1{
+    background:linear-gradient(#94BCE5,#A0C4E8,#FEFEFF,#78AADE);
+    width:204px;
+    height:135px;
+    position:absolute;
+    top:322px;
+    left:83px;
+}
+.plan2{
+    background:linear-gradient(#E5AD94,#F0D0C2,#FEFEFF,#DE9778);
+    width:204px;
+    height:135px;
+    position:absolute;
+    top:322px;
+    left:288px;
+}
+.plan3{
+    background:linear-gradient(#94E5AD,#B9EEC9,#FEFEFF,#78DE97);
+    width:204px;
+    height:135px;
+    position:absolute;
+    top:322px;
+    left:493px;    
+}
+.kreska{
+    position:absolute; 
+    left:198px;    
+}
+.komp{
+    position:relative; 
+    top:-130px;
+    left:20px;
+}
+.kompC{
+    position:relative; 
+    top:-97px;
+    left:-17px;
+    z-index:1;
+    opacity:0.4;
+}
+.tekst{
+    font-size:20px;
+    font-weight:bold;
+    z-index: 2;
+}
 .obramowanie{
     border-top-width:0px; 
     border-bottom-width:0px;
@@ -97,7 +180,7 @@ table.plan{
     width:270px;
     height:46px;   
     position:absolute;
-    top:466px;
+    top:459px;
     background:linear-gradient(#FFFFFF,#EBEBEB);
 }
 .ramka2{
@@ -113,7 +196,7 @@ table.plan{
     width:509px;
     height:46px;   
     position:absolute;
-    top:466px;
+    top:459px;
     left:279px;
     background:linear-gradient(#FFFFFF,#EBEBEB);
 }
@@ -133,7 +216,7 @@ table.plan{
     width:780px;
     position:absolute;
     left:8px;
-    top:505px;
+    top:498px;
     color:#86ABD8;
     background-color:#86ABD8;
     border:0px;
@@ -142,7 +225,7 @@ table.down{
     width:780px;
     height:159px;
     position:absolute;
-    top:523px;
+    top:517px;
     left:6px;
     border:1px solid black;
     border-collapse:collapse;
@@ -175,7 +258,7 @@ table.down{
     height:37px;
     background:linear-gradient(#6C6C6C,#999999);
     position:absolute;
-    top:687px;
+    top:680px;
     font-size:12px;
     text-align:center;    
 }
@@ -190,7 +273,7 @@ a.marg{
     width:780px;
     height:80px;
     position:absolute;
-    top:725px;
+    top:718px;
 }
 .copyright{
    text-align:center;
