@@ -1,8 +1,20 @@
 .up{
 background:linear-gradient(#ffffff,#ffffff,#ffffff,#d1d1d1); 
- height:80px;
- width:780px; 
- z-index:0;
+height:80px;
+width:780px; 
+z-index:0;
+}
+.upTABLE{
+width:366px;
+height:51px;
+position:absolute;
+top:14px;
+left:380px;
+border-style:dotted;
+//border-top-width:0px;
+//border-bottom-width:0px;
+border:1px;
+text-align:center;
 }
 .menu{
 height:39px;
@@ -11,34 +23,41 @@ position:absolute;
 top:71px;
 }
 .title1{
-    font-size:20px;
+    font-size:23px;
     color:#5E5CA7;
+    font-family:Arial;
     font-weight:bold;
     position:absolute;
-    left:80px;
-    top:-3px;
+    left:77px;
+    top:-6px;
+    text-shadow:1px 0px 1px;
 }
 .title2{
-    font-size:20px;
+    font-size:23px;
     color:#FFC600;
+    font-family:Arial;
     font-weight:bold;
     position:absolute;
-    top:-3px;
-    left:163px;
+    top:-6px;
+    left:183px;
+    text-shadow:1px 0px 1px;
 }
 .slogan{
-    font-size:8.5px;
+    font-size:10px;
     color:#818181;
     position:absolute;
     left:80px;
-    top:29px;
+    top:31px;
+    font-family:10px;
     font-weight:bold;
 }
 .menu2T{
-    font-size:9px;
+    font-size:8px;
     color:#000000;
-    position:absolute;
-    top:53px;
+    font-family:DejaVu Sans;
+    font-weight:lighter;
+    position:relative;
+    top:-16px;
 }
 a.link {color:#FFFFFF;text-decoration:none;}
 a.visited {color:#FFFFFF;text-decoration:none;}
@@ -60,11 +79,12 @@ a.active {color:#FFFFFF;}
 }
 .serious{
     z-index:2;
-    font-size:18px;
+    font-size:18.5px;
     color:#FF5A00;
+    font-family:DejaVu Sans;
     position:absolute;
     left:270px;
-    font-weight:bold;
+    font-weight:lighter;
 }
 .kreskaM{
     width:778px;
@@ -104,11 +124,11 @@ position:absolute;
 top:0px;
 left:24px; 
 }
-.bHOME{position:absolute; top:14px; left:400px;}
-.bSERV{position:absolute; top:14px; left:478px;}
-.bCON{position:absolute; top:14px; left:548px;}
-.bSEAR{position:absolute; top:14px; left:618px;}
-.bSM{position:absolute; top:14px; left:688px;}
+//.bHOME{position:absolute; top:14px; left:400px;}
+//.bSERV{position:absolute; top:14px; left:478px;}
+//.bCON{position:absolute; top:14px; left:548px;}
+//.bSEAR{position:absolute; top:14px; left:618px;}
+//.bSM{position:absolute; top:14px; left:688px;}
 table.plan{
     width:610px;
     height:130px;
@@ -207,7 +227,7 @@ table.plan{
 .comNEWS{
     font-size:11px;
     font-weight:bold;
-    font-family:sans-serif;
+    font-family:Tahoma;
     position:relative;
     left:-1px;
 }
@@ -239,19 +259,22 @@ table.down{
 }
 .textMay{
     color:#FF7500;
-    font-size:16px;    
+    font-size:15px;
+    font-family:Tahoma;
 }
 .lorem1{
    font-size:11px;
    margin-left: 28px;
    margin-right: 28px;
    margin-top:26px;
+   font-family:Tahoma;
 }
 .lorem2{
    font-size:11px;
    margin-left: 32px;
    margin-right: 32px;
    margin-top:26px;
+   font-family:Tahoma;
 }
 .downMENU{
     width:780px;
@@ -259,7 +282,9 @@ table.down{
     background:linear-gradient(#6C6C6C,#999999);
     position:absolute;
     top:680px;
-    font-size:12px;
+    font-size:10px;
+    font-weight:bold;
+    font-family:Tahoma;
     text-align:center;    
 }
 a.marg{
@@ -277,6 +302,8 @@ a.marg{
 }
 .copyright{
    text-align:center;
+   font-size:11px;
+   font-family:Tahoma;
 }
 /*
 To change this license header, choose License Headers in Project Properties.
