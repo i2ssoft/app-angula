@@ -11,16 +11,15 @@ position:absolute;
 top:14px;
 left:380px;
 border-style:dotted;
-//border-top-width:0px;
-//border-bottom-width:0px;
 border:1px;
+border-collapse:collapse;
 text-align:center;
 }
 .menu{
 height:39px;
 width:780px;
 position:absolute;
-top:71px;
+top:72px;
 }
 .title1{
     font-size:23px;
@@ -57,7 +56,7 @@ top:71px;
     font-family:DejaVu Sans;
     font-weight:lighter;
     position:relative;
-    top:-16px;
+    top:-15px;
 }
 a.link {color:#FFFFFF;text-decoration:none;}
 a.visited {color:#FFFFFF;text-decoration:none;}
@@ -69,6 +68,11 @@ a.active {color:#FFFFFF;}
     position:absolute;
     top:34px;
     z-index:1;
+}
+.table1{
+    border:1px solid;
+    border-collapse:collapse;
+    color:#FFFFFF;
 }
 .solu{
     background:linear-gradient(#FFFFFF,#FFFFFF,#E6E6E6);
@@ -87,13 +91,14 @@ a.active {color:#FFFFFF;}
     font-weight:lighter;
 }
 .kreskaM{
-    width:778px;
+    width:780px;
     color:#CECECE;
     background-color:#CECECE;
-    height:0,5px;
+    height:1px;
     position:absolute;
     left:8px;
-    top:300px;    
+    top:300px; 
+    border:0px;
 }
 .kreskaD{
     width:780px;
@@ -304,6 +309,16 @@ a.marg{
    text-align:center;
    font-size:11px;
    font-family:Tahoma;
+}
+.button{
+    font-size:8px;
+    text-align:center;
+    font-family:DejaVu Sans;
+    font-weight:lighter;
+    margin-left:13px;
+    margin-right:13px;
+    margin-bottom:2px;
+    margin-top:2px;   
 }
 /*
 To change this license header, choose License Headers in Project Properties.
