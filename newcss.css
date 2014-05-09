@@ -10,16 +10,16 @@ height:51px;
 position:absolute;
 top:14px;
 left:380px;
-border-style:dotted;
-border:1px;
-border-collapse:collapse;
+//border:1px;
+//border-collapse:collapse;
+//border-style:dotted;
 text-align:center;
 }
 .menu{
 height:39px;
 width:780px;
 position:absolute;
-top:72px;
+top:71px;
 }
 .title1{
     font-size:23px;
@@ -47,7 +47,7 @@ top:72px;
     position:absolute;
     left:80px;
     top:31px;
-    font-family:10px;
+    font-family:Arial;
     font-weight:bold;
 }
 .menu2T{
@@ -63,14 +63,15 @@ a.visited {color:#FFFFFF;text-decoration:none;}
 a.hover {color:#FFFFFF;}  
 a.active {color:#FFFFFF;}  
 .menu1{
-    font-size: 9px;
-    text-shadow: 5px 5px 5px #999999;
+    font-size: 10px;
+    font-family:Helios;
+    text-shadow: 1px 1px 1px #000000;
     position:absolute;
-    top:34px;
+    top:33px;
     z-index:1;
 }
 .table1{
-    border:1px solid;
+    border:1px solid black;
     border-collapse:collapse;
     color:#FFFFFF;
 }
@@ -83,13 +84,13 @@ a.active {color:#FFFFFF;}
 }
 .serious{
     z-index:2;
-    font-size:18.5px;
+    font-size:20px;
+    font-weight:bold;
     color:#FF5A00;
-    font-family:DejaVu Sans;
+    font-family:Helios;
     position:absolute;
     left:270px;
-    font-weight:lighter;
-}
+    }
 .kreskaM{
     width:780px;
     color:#CECECE;
@@ -143,6 +144,7 @@ table.plan{
 }
 .plan1{
     background:linear-gradient(#94BCE5,#A0C4E8,#FEFEFF,#78AADE);
+   //background:linear-gradient(rgb(148,188,229),rgb(173,204,235),rgb(255,255,255),rgb(120,170,222));
     width:204px;
     height:135px;
     position:absolute;
@@ -164,6 +166,49 @@ table.plan{
     position:absolute;
     top:322px;
     left:493px;    
+}
+.Bplan{
+    font-size:17px;
+    font-weight:bolder;
+    font-family:DejaVu Sans;
+    color:#014786;
+    position:absolute;
+    top:-10px;
+    left:70px;
+    z-index:2;
+    letter-spacing:-2px;
+}
+.Splan{
+    font-size:17px;
+    font-weight:bolder;
+    font-family:DejaVu Sans;
+    color:#EA0D0C;    
+    position:absolute;
+    top:-10px;
+    left:70px;
+    z-index:2;
+    letter-spacing:-2px;
+}
+.BUSplan{
+    font-size:17px;
+    font-weight:900;
+    font-family:DejaVu Sans;
+    color:#0E7D02;
+    position:absolute;
+    top:-10px;
+    left:70px;
+    z-index:2;    
+    letter-spacing:-2px;
+}
+.TXTplan{
+    font-size:12px;
+    font-weight:lighter;
+    font-family:Helios;
+    color:#666565;
+    z-index:2;
+    position:relative;
+    top:-210px;
+    left:70px;
 }
 .kreska{
     position:absolute; 
