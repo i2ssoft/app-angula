@@ -1,0 +1,592 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+.container-menu{
+    width:780px;
+    height:233px;
+    font-size:11px;
+    font-weight:bold;
+    font-family:Tahoma;
+    color:#FFFFFF;    
+}
+div.block1,div.block2{
+    height:55px;  
+    top:0px; 
+    position:absolute;
+    z-index:3;
+}
+div.block1{
+    width:401px;    
+    background:linear-gradient(#59A8E6,#075593);
+}
+.button1{
+    position:relative;
+}
+.but1{
+    left:5px;
+    top:8px;
+}
+div.block2{
+    width:378px;
+    background:linear-gradient(#C8D7F2,#75839F);
+    left:402px;
+    top:0px;
+}
+.txtSEARCH{
+    position:absolute;
+    left:188px;
+    top:5px;
+}
+.logo{
+    position:absolute;
+    top:120px;
+    left:400px;
+    z-index:1;
+}
+.title{    
+    position:relative;    
+    z-index:10;
+    color:#FFFFFF;
+    font-family:Oswald;
+   text-shadow:1px 1px 1px #000000;
+}
+.titleA{
+    font-size:26px;
+    font-weight:bold; 
+    top:-20px;
+    left:-330px;
+}
+.titleB{
+    font-size:11px;
+    left:-540px;
+    top:-4px;
+}
+input[type="text"]{
+    width:100px;
+}
+ul.lista{
+    list-style-type:disc;
+    margin:0px;
+    padding:20px;
+    text-align:center;
+    overflow:hidden;
+    width:350px;
+}
+li.lista{
+    float:left;
+    margin-left:10px;
+    margin-right:15px;
+}
+a.link1 {color:#FFFFFF;text-decoration:none;}
+a.visited1 {color:#FFFFFF;text-decoration:none;}
+a.hover1 {color:#FFFFFF;}  
+a.active1 {color:#FFFFFF;} 
+span.mid{
+    position:relative;
+    top:15px;
+    text-shadow:1px 1px 1px #000000;
+}
+.pasek1{
+    position:absolute;
+    left:0px;
+    top:55px; 
+    z-index:3;
+    color:#000000;
+}
+p.pasek1{
+    position:relative;
+    left:640px;
+    top:-33px;
+}
+.tlo1,.women,.tlo2{
+    position:relative;
+}
+.tlo1{
+    top:69px;
+    z-index:1;
+}
+.women{
+    z-index:4;
+    top:-158px;
+}
+.tlo2{
+    left:267px;
+    top:-333px;
+    z-index:2;
+}
+.container-content{
+    width:780px;
+    height:565px;
+    position:absolute;
+    top:234px;
+    font-family:Tahoma;
+    font-size:12px;
+}
+.login{
+    border:1px solid #6E6E6E;
+    position:absolute;
+    left:0px;
+    top:0px;
+    z-index:5;
+    width:223px;
+    height:100px;
+    box-shadow:0px 4px 5px #A6A6A6;
+    background:linear-gradient(#C1C1C1,#FDFDFD);
+}
+.input1,.input2{
+    position:relative;
+    left:50px;
+}
+.input1{
+    top:26px;
+}
+.input2{
+    top:16px;
+}
+input[name="username"]{
+    width:120px;
+}
+input[name="password"]{
+    width:80px;
+}
+.pasek2{
+    box-shadow:0px 4px 5px #6E6E6E;
+    border:1px solid #6E6E6E;
+    width:222px;
+    height:27px;
+    position:absolute;
+    left:0px;
+    top:0px;
+    z-index:4;
+    background:linear-gradient(#EEEEEE,#A6A6A6);
+}
+.txtpasek2{
+    position:relative;
+    top:-34px;
+    left:31px;
+    margin-right:10px;
+    text-shadow:1px 1px 0px #ffffff;
+}
+.file{
+    position:relative;
+    left:15px;
+}
+.file1{
+    top:-60px;
+}
+.menu{
+    border:1px solid #A6A6A6;
+    width:554px;
+    height:50px;
+    position:relative;
+    left:224px;  
+    z-index:6;
+}
+ul.lista1{
+    list-style-type:none;
+    overflow:hidden;
+    position:absolute;
+    top:-11px;
+    left:-41.5px;
+}
+li.lista1{
+    margin-left:1.5px;
+    float:left;
+}
+a.link:link, a.visited:visited{
+    display:block;
+    width:91px;
+    height:50px;
+    font-weight:bold;
+    color:#FFFFFF;
+    background:linear-gradient(#A2E0F9,#0B5CA1);
+    text-align:center;
+    text-decoration:none;
+}
+a.hover:hover{
+    background:linear-gradient(#79CFF2,#054C89);
+}
+a.active:active{
+    background:linear-gradient(#79CFF2,#054C89);
+}
+.welcome{
+    width:398px;
+    height:192px;   
+    font-size:26px;
+}
+.photo{    
+    top:2px;
+    left:224px;
+    position:relative;
+}
+.txtMAN{
+    color:#FF0C0C;
+    font-family:Oswald;
+    font-weight:bold;
+    position:relative;
+    letter-spacing:-1px;
+    left:150px;
+}
+.txtMAN1{
+    top:-195px;
+    font-size:19px;
+}
+.txtMAN2{
+    top:-232px;
+}
+.txtMAN3{
+    font-size:15px;
+    font-family:Oswald;
+    font-weight:bold;
+    position:relative;
+    color:#FFFFFF;
+    letter-spacing:-0.4px;
+    left:180px;
+    text-shadow:1px 1px 1px black;
+}
+.txtMAN3a{
+    top:-220px;
+    z-index:2;
+}
+.txtMAN3b{
+    top:-233px;
+}
+.txtMAN3c{
+    top:-246px;
+}
+.imgMAN1{
+    position:relative;
+    left:149px;
+}
+.imgMAN1a{
+    top:-347px;
+}
+.imgMAN1b{
+    top:-380px;
+}
+.imgMAN1c{
+    top:-413px;
+}
+span.arrow{
+    position:relative;
+    top:-469px;
+    left:305px;
+    font-size:11px;
+    font-family:Oswald;
+    font-weight:bold;
+    color:#FFFFFF;
+}
+.news{
+    width:223px;
+    height:235px;
+    position:absolute;
+    left:0xp;
+    top:100px;
+    font-size:11px;
+    font-family:Tahoma;
+    font-weight:bold;
+    background-color:#D9DADC;
+    border:1px black solid;
+    border-right: 0px;
+    box-shadow:2px 0px 4px #A6A6A6;
+    z-index:4;
+}
+.txtLAT{
+    left:30px;
+    top:-25px;
+}
+.lorema{
+    top:-22px;
+    margin-right:5px;
+}
+a.link3 {color:#FF6600;text-decoration:underline;}
+a.visited3 {color:#FF6600;text-decoration:underline;}
+a.hover3 {color:#FF6600;}  
+a.active3 {color:#FF6600;} 
+.readmore1{
+    top:-17px;
+}
+.granica{
+    top:-14px;
+}
+.loremb{
+    top:-40px;
+    margin-right:5px;
+}
+.readmore2{
+    position:absolute;
+    left:15px;
+    top:212px;
+}
+.blox{
+    width:159px;
+    height:492px;
+    position:relative;
+    top:-192px;
+    left:621px;    
+}
+.blok{
+    width:144px;
+    height:155px;
+    border:2px solid #3C82B8;
+    position:relative;
+    left:7px;
+    border-radius:5px;
+}
+.blok1{
+    top:7px;
+}
+.titleblok{
+    position:absolute;
+    left:0px;
+    font-family:Oswald;
+    font-size:14px;
+    font-weight:bold;
+    height:32px;
+    width:144px;
+    background:linear-gradient(#3C82B8,#21679E);
+}
+.TitleBlokTxt,.TitleBlokImg,.koles,.Middle2Title,.Middle2Text{
+    position:relative;
+}
+.TitleBlokImg{    
+    top:-11px;
+    left:5px;
+}
+.TitleBlokTxt{
+    top:-51px;
+    left:34px;
+    color:#FFFFFF;
+}
+.blok2{
+    top:13px;
+}
+.blok3{
+    top:21px;
+}
+.blokTXT{
+    height:70px;
+    width:144px;
+    font-size:10px;
+    position:relative;
+    top:32px;
+    font-family:Oswald;
+    background-color:#FFFFFF;
+}
+ul.margin,li.margin{
+    position:relative;
+    left:-17px;
+}
+span.money{
+    position:relative;
+    left:6px;
+    top:-27px;
+}
+span.order{
+    position:relative;
+    left:12px;
+    top:-27px;
+    font-size:10px;
+}
+.img{
+    position:relative;
+    top:-9px;
+    left:2px;
+}
+.FooterBlok{
+    position:relative;
+    left:-2px;
+    top:25px;
+    font-family:Oswald;
+    font-size:21px;
+    font-weight:bold;
+    height:52px;
+    width:148px;
+    border-bottom-right-radius:5px;
+    border-bottom-left-radius:5px;
+    color:#FFFFFF;
+}
+.FooterBlok1{
+    background-color:#008AFF;
+}
+.FooterBlok2{
+    background-color:#FFBA00;
+}
+.FooterBlok3{
+    background-color:#FF0000;
+}
+.MiddleBlue,.Middle1,.Middle2{
+    position:absolute;
+    left:224px;
+}
+.MiddleBlue{
+    width:399px;
+    height:36px;
+    background-color:#097EDA;
+    top:248px;
+    font-size:12px;
+    font-family:Tahoma;
+    color:#FFFFFF;
+}
+.MiddleBlue1{
+    position:relative;
+    top:-28px;
+    left:21px;
+}
+.Middle1{
+    width:398px;
+    height:97px;
+    top:284px;
+    border-right:1px solid #095795;
+    border-bottom:1px solid #095795;
+    background-color:#D5D9E4;
+}
+.button2{
+    position:relative;
+    left:350px;
+    top:20px;
+    z-index:10;
+}
+.search2,.vent,.desire,.inputy{
+    position:relative;
+}
+.search2{
+    left:-150px;
+    top:-7px;
+    font-weight:bold;
+}
+.vent{
+    left:290px;
+    top:-50px; 
+}
+.desire{
+    font-size:8px;
+    font-family:Tahoma;
+    left:60px;
+    top:-76px;
+}
+.inputy{
+    top:-78px;
+    left:32px;
+    font-size:8px;
+}
+.Middle2{
+    width:399px;
+    height:180px;
+    background-color:#2473B0;
+    top:381px;
+    font-size:11px;
+    font-family:Tahoma;
+}
+.koles{
+    top:23px;
+    left:11px;
+}
+.Middle2Title,.Middle2Text,.Middle2More{
+    left:190px;
+    color:#FFFFFF;
+}
+.Middle2Title{
+    font-size:14px;
+    top:-157px;    
+}
+.Middle2Text,.Middle2More{
+    font-size:11px;
+    top:-160px;
+}
+a.link4 {color:#FFFFFF;text-decoration:underline;}
+a.visited4 {color:#FFFFFF;text-decoration:underline;}
+a.hover4 {color:#FFFFFF;}  
+a.active4 {color:#FFFFFF;} 
+.featured{
+    position:absolute;
+    left:0px;
+    top:337px;
+}
+.featured{    
+    width:223px;
+    height:224px;
+    background-color:#D9DADC;
+}
+.FeatuREDD{
+    width:223px;
+    height:180px;
+    position:absolute;
+    left:0px;
+    top:0px;
+    box-shadow:3px 6px 3px #A9A9A9;
+    background-color:#FF0000;
+    font-size:11px;
+    font-family:Tahoma;
+    font-weight:bold;
+    z-index:2;
+}
+.komp{
+    position:relative;
+    top:40px;
+    left:10px;
+    border-left:1px solid black;
+}
+.FeaturedTXT{
+    float:right;
+    position:relative;
+    left:-14px;
+    top:-37px;
+}
+.button{
+    position:relative;
+    top:183px;
+    left:30px;
+}
+footer{
+    width:780px;
+    height:82px;
+    position:absolute;
+    top:795px;   
+    font-family:Tahoma;
+    font-size:11px;    
+}
+.footerLINE{    
+    width:780px;
+    height:25px;
+    border-top:1px solid #6F6F6F;
+    border-bottom:1px solid #6F6F6F;
+    box-shadow:0px 3px 4px #A6A6A6;
+    background:linear-gradient(#EEEEEE,#A6A6A6);
+}
+span.copyright{
+    position:relative;
+    top:20px;
+    left:30px;
+}
+ul.downMENU{
+    list-style-type:none;
+    margin:0px;
+    padding:20px;
+    position:relative;
+    top:-14px;
+    left:270px;
+    text-align:center;
+    overflow:hidden;
+}
+li.downMENU{
+    float:left;
+    font-weight:bold;
+    margin-left:13px;
+    margin-right:13px;
+}
+a.link6 {color:#000000;text-decoration:none;}
+a.visited6 {color:#000000;text-decoration:none;}
+a.hover6 {color:#000000;}  
+a.active6 {color:#000000;}
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2014-05-12, 08:55:56
+    Author     : Seba
+*/
+

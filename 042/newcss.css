@@ -21,6 +21,12 @@ width:780px;
 position:absolute;
 top:71px;
 }
+.koles{
+    position:relative;top:55px;
+}
+.kabell{
+    position:relative;top:-138px;
+}
 .title1{
     font-size:23px;
     color:#5E5CA7;
@@ -112,13 +118,39 @@ a.active {color:#FFFFFF;}
     border:0px;
 }
 .napis1{
-color:#8A8A8A;
-font-size:15px;
+    color:#8A8A8A;
+    font-size:15px;
+    position:absolute;
+    left:20px;
+    top:-9px;
 }
-.napis1B{
-color:#8a8a8a;
-font-weight:bold;
-
+.napis2{
+    color:#8a8a8a;
+    font-weight:bold;
+    position:absolute;
+    left:195px;
+    top:-11px;
+}
+.napis3{
+    color:#8a8a8a;
+    font-size:11px;
+    position:absolute;
+    left:485px;
+    top:-2px;
+}
+.napis4{
+    color:#8a8a8a;
+    font-weight:bold;
+    position:absolute;
+    left:568px;
+    top:-11px;
+}
+.napis5{
+    color:#8a8a8a;
+    font-size:15px;
+    position:absolute;
+    left:592px;
+    top:-9px;
 }
 .kabel{
 //background:linear-gradient(#6c6c6c,#999999);
@@ -304,13 +336,33 @@ table.down{
     border-left-color:#FFFFFF;
     border-right-color:#FFFFFF;
 }
-.folder{
-    float:left;   
+.folder1{
+    float:left;  
+    position:absolute;
+    top:27px;
+    left:300px;
 }
-.textMay{
+.folder2{
+    float:left;
+    position:absolute;
+    top:27px;
+    left:550px;
+}
+.textMay1{
     color:#FF7500;
     font-size:15px;
     font-family:Tahoma;
+    position:absolute;
+    top:9px;
+    left:326px;
+}
+.textMay2{
+    color:#FF7500;
+    font-size:15px;
+    font-family:Tahoma;
+    position:absolute;
+    top:9px;
+    left:579px;
 }
 .lorem1{
    font-size:11px;
