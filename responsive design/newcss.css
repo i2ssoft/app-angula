@@ -28,6 +28,15 @@ top:71px;
 .kabell{
     position:relative;top:-138px;
 }
+.serious1{
+    top:70px;
+}
+.serious2{
+    top:85px;
+}
+.serious3{
+    top:120px
+}
 .title1{
     font-size:23px;
     color:#5E5CA7;
@@ -391,6 +400,7 @@ table.down{
    margin-right: 28px;
    margin-top:26px;
    font-family:Tahoma;
+   word-wrap:break-word;
 }
 .lorem2{
    font-size:11px;
@@ -398,6 +408,7 @@ table.down{
    margin-right: 32px;
    margin-top:26px;
    font-family:Tahoma;
+   word-wrap:break-word;
 }
 .downMENU{
     width:780px;
@@ -428,6 +439,13 @@ a.marg{
    font-size:11px;
    font-family:Tahoma;
 }
+.biale{
+    z-index:1;
+    position:absolute;
+    top:56px;
+    left:249px;
+    opacity:0.5;
+}
 .button{
     font-size:8px;
     text-align:center;
@@ -445,6 +463,22 @@ a.marg{
     height:80px;
     width:1024px; 
     z-index:0;
+}
+.biale{
+    z-index:1;
+    position:absolute;
+    top:56px;
+    left:249px;
+    opacity:0.5;
+}
+.serious1{
+    top:70px;
+}
+.serious2{
+    top:85px;
+}
+.serious3{
+    top:120px
 }
 .upTABLE{
     width:700px;
@@ -835,6 +869,7 @@ table.down{
    margin-right: 28px;
    margin-top:26px;
    font-family:Tahoma;
+   word-wrap:break-word;
 }
 .lorem2{
    font-size:11px;
@@ -842,6 +877,7 @@ table.down{
    margin-right: 32px;
    margin-top:26px;
    font-family:Tahoma;
+   word-wrap:break-word;
 }
 .downMENU{
     width:1024px;
@@ -885,34 +921,42 @@ a.marg{
 }
 @media only screen and (max-width : 800px) {
 .up{
-background:linear-gradient(#ffffff,#ffffff,#ffffff,#d1d1d1); 
-height:80px;
-width:640px; 
-z-index:0;
+    background:linear-gradient(#ffffff,#ffffff,#ffffff,#d1d1d1); 
+    height:80px;
+    width:640px; 
+    z-index:0;
 }
 .upTABLE{
-width:340px;
-height:51px;
-position:absolute;
-top:14px;
-left:300px;
-//border:1px;
-//border-collapse:collapse;
-//border-style:dotted;
-text-align:center;
+        width:340px;
+        height:51px;
+        position:absolute;
+        top:14px;
+        left:300px;
+        //border:1px;
+        //border-collapse:collapse;
+        //border-style:dotted;
+        text-align:center;
 }
 .menu{
-height:39px;
-width:640px;
-position:absolute;
-top:71px;
+    height:39px;
+    width:640px;
+    position:absolute;
+    top:71px;
 }
 .koles{
-    position:relative;top:55px;
+    position:relative;
+    top:50px;
+}
+.biale{
+    z-index:1;
+    position:absolute;
+    top:51px;
+    left:179px;
+    opacity:0.5;
 }
 .kabell{
-    position:relative;top:-138px;
-    width:640px;
+    position:relative;
+    top:-110px;
 }
 .title1{
     font-size:20px;
@@ -960,7 +1004,7 @@ a.active {color:#FFFFFF;}
     font-family:Helios;
     text-shadow: 1px 1px 1px #000000;
     position:absolute;
-    top:33px;
+    top:29px;
     z-index:1;
 }
 .menu1a{
@@ -993,7 +1037,7 @@ a.active {color:#FFFFFF;}
     height:36px;
     width:640px;
     position:absolute;
-    top:271px; 
+    top:241px; 
 }
 .serious{
     z-index:2;
@@ -1002,8 +1046,17 @@ a.active {color:#FFFFFF;}
     color:#FF5A00;
     font-family:Helios;
     position:absolute;
-    left:270px;
-    }
+    left:200px;
+}
+.serious1{
+    top:50px;
+}
+.serious2{
+    top:65px;
+}
+.serious3{
+    top:100px
+}
 .kreskaM{
     width:640px;
     color:#CECECE;
@@ -1011,7 +1064,7 @@ a.active {color:#FFFFFF;}
     height:1px;
     position:absolute;
     left:8px;
-    top:300px; 
+    top:270px; 
     border:0px;
 }
 .kreskaD{
@@ -1021,7 +1074,7 @@ a.active {color:#FFFFFF;}
     height:11px;
     position:absolute;
     left:8px;
-    top:302px; 
+    top:272px; 
     border:0px;
 }
 .napis1{
@@ -1061,13 +1114,13 @@ a.active {color:#FFFFFF;}
 }
 .kabel{
 //background:linear-gradient(#6c6c6c,#999999);
-height:37px;
-width:640px;
+    height:37px;
+    width:640px;
 }
 .posZ{
-position:absolute;
-top:0px;
-left:24px; 
+    position:absolute;
+    top:0px;
+    left:24px; 
 }
 //.bHOME{position:absolute; top:14px; left:400px;}
 //.bSERV{position:absolute; top:14px; left:478px;}
@@ -1078,7 +1131,7 @@ table.plan{
     width:610px;
     height:130px;
     position:absolute;
-    top:322px;
+    top:292px;
     left:8px;
 }
 .plan1{
@@ -1087,7 +1140,7 @@ table.plan{
     width:204px;
     height:135px;
     position:absolute;
-    top:322px;
+    top:292px;
     left:8px;
 }
 .plan2{
@@ -1095,7 +1148,7 @@ table.plan{
     width:204px;
     height:135px;
     position:absolute;
-    top:322px;
+    top:292px;
     left:226px;
 }
 .plan3{
@@ -1103,7 +1156,7 @@ table.plan{
     width:204px;
     height:135px;
     position:absolute;
-    top:322px;
+    top:292px;
     left:444px;    
 }
 .Bplan{
@@ -1189,7 +1242,7 @@ table.plan{
     width:220px;
     height:46px;   
     position:absolute;
-    top:459px;
+    top:429px;
     background:linear-gradient(#FFFFFF,#EBEBEB);
 }
 .ramka2{
@@ -1205,7 +1258,7 @@ table.plan{
     width:419px;
     height:46px;   
     position:absolute;
-    top:459px;
+    top:429px;
     left:229px;
     background:linear-gradient(#FFFFFF,#EBEBEB);
 }
@@ -1225,7 +1278,7 @@ table.plan{
     width:640px;
     position:absolute;
     left:8px;
-    top:498px;
+    top:468px;
     color:#86ABD8;
     background-color:#86ABD8;
     border:0px;
@@ -1234,7 +1287,7 @@ table.down{
     width:640px;
     height:159px;
     position:absolute;
-    top:517px;
+    top:487px;
     left:6px;
     border:1px solid black;
     border-collapse:collapse;
@@ -1263,6 +1316,11 @@ table.down{
     top:5px;
     left:326px;
 }
+img.resize{
+    width:640px;
+    height: auto;
+    max-width:640px;
+}
 .textMay2{
     color:#FF7500;
     font-size:12px;
@@ -1277,6 +1335,7 @@ table.down{
    margin-right: 28px;
    margin-top:26px;
    font-family:Tahoma;
+   word-wrap:break-word;
 }
 .lorem2{
    font-size:10px;
@@ -1284,13 +1343,14 @@ table.down{
    margin-right: 32px;
    margin-top:26px;
    font-family:Tahoma;
+   word-wrap:break-word;
 }
 .downMENU{
     width:640px;
     height:37px;
     background:linear-gradient(#6C6C6C,#999999);
     position:absolute;
-    top:680px;
+    top:650px;
     font-size:9px;
     font-weight:bold;
     font-family:Tahoma;
@@ -1307,7 +1367,7 @@ a.marg{
     width:640px;
     height:80px;
     position:absolute;
-    top:718px;
+    top:688px;
 }
 .copyright{
    text-align:center;
