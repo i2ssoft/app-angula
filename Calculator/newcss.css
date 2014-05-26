@@ -1,0 +1,68 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-size:35px;
+    font-family:Tahoma;
+    font-weight:300;
+}
+html {
+	background: radial-gradient(circle, #fff 20%, #ccc);
+}
+#calculator{
+    width:450px;
+    height:auto;
+    background:linear-gradient(#0099ff,#66ccff);
+    margin:100px auto;
+    padding:20px;
+    border-radius:5px;
+    box-shadow:5px 5px 5px #097EDA;
+}
+.top .ekran{
+    width:398px;
+    height:70px;
+    position:relative;
+    left:5px;    
+    background-color:#9a9a9a;
+    border-radius:2px;
+    border:2px solid #6a6a6a;
+}
+.button{
+    overflow: hidden;
+}
+input{
+    width:90px;
+    height:60px;
+    margin:20px 6px 5px;
+    float:left;
+    border-radius:3px;
+}
+input[name="clear"]{
+    background-color:#ff3366;
+}
+input[name="plus"],input[name="minus"],input[name="dziel"],input[name="mnoz"],input[name="equals"]{
+    background-color:Lime;
+}
+.button span{
+    width:90px;
+    height:60px;
+    float:left;
+    background-color:#ffffff;
+    margin:5px 5px 5px;
+    border-radius:5px;
+    text-align:center;
+    padding:10px;
+    box-shadow:2px 2px 2px #6a6a6a;
+    text-shadow:1px 1px 2px #6a6a6a;
+    cursor:pointer;
+}
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2014-05-26, 09:00:05
+    Author     : Seba
+*/
+
