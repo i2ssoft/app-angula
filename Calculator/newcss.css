@@ -18,16 +18,18 @@ html {
     border-radius:5px;
     box-shadow:5px 5px 5px #097EDA;
 }
-.top .ekran{
+#top{
     width:398px;
     height:70px;
     position:relative;
     left:5px;    
     background-color:#9a9a9a;
     border-radius:2px;
+    color:#000000;
     border:2px solid #6a6a6a;
+    text-align:center;
 }
-.button{
+.button1{
     overflow: hidden;
 }
 input{
@@ -37,13 +39,13 @@ input{
     float:left;
     border-radius:3px;
 }
-input[name="clear"]{
+input[name="clea"]{
     background-color:#ff3366;
 }
-input[name="plus"],input[name="minus"],input[name="dziel"],input[name="mnoz"],input[name="equals"]{
+input[name="plu"],input[name="minu"],input[name="dzie"],input[name="mno"],input[name="equal"]{
     background-color:Lime;
 }
-.button span{
+.button1 span{
     width:90px;
     height:60px;
     float:left;
